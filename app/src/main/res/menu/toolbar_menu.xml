@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="search"/>
+    <item android:id="@+id/music_list_menu"
+        android:icon="@drawable/list_pic"
+        android:title="@string/play_music_list"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/search_music_menu"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search_music_button"
+        app:showAsAction="never"/>
+    <item android:id="@+id/download_music_menu"
+        android:icon="@android:drawable/stat_sys_download_done"
+        android:title="@string/download_manager"
+        app:showAsAction="never"/>
+</menu>

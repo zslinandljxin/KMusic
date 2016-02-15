@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zsl="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/music_item_height"
+        android:paddingLeft="9dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/item_view_background"
+        android:descendantFocusability="blocksDescendants">
+        <zsl.zhaoqing.com.kmusic.model.MyButton
+            android:id="@+id/add_music_button"
+            android:layout_width="@dimen/button_in_item_size"
+            android:layout_height="@dimen/button_in_item_size"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitCenter"
+            zsl:pressed_color="@color/oragne"
+            android:src="@drawable/add_pic"/>
+        <TextView
+            android:id="@+id/music_info_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="5dp"
+            android:maxLines="2"
+            android:textSize="@dimen/text_in_item_size"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

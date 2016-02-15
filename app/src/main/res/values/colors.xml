@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#60D6FF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorObscure">#00FFFFFF</color>
+    <color name="colorTran">#55FFFFFF</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="barColor">#FF885577</color>
+    <color name="oragne">#FFF7D558</color>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">KMusic</string>
+    <string name="music_lists">音乐列表</string>
+    <string name="drawer_open">打开设置</string>
+    <string name="drawer_close">关闭设置</string>
+    <string name="search_music">正在搜索歌曲</string>
+    <string name="searching">搜索中...</string>
+    <string name="no_network">网络不可用！</string>
+    <string name="no_external_storage">没有可用外设</string>
+    <string name="play_music_list">播放列表</string>
+    <string name="search_music_button">扫描本地歌曲</string>
+    <string name="download_music">下载音乐</string>
+    <string name="download_manager">下载管理</string>
+    <string name="music_search">音乐搜索</string>
+    <string name="play_list_tips">当前播放列表没有可播音乐</string>
+    <string name="go_home_tips">再按一次返回桌面</string>
+    <string name="add_to_download">添加到下载列表</string>
+    <string name="cancel_recycle">取消循环</string>
+    <string name="set_recycle">歌曲循环</string>
+    <string name="add_to_play_list">成功添加到播放列表</string>
+    <string name="no_music">歌曲不存在</string>
+    <string name="delete_music">删除歌曲</string>
+    <string name="search_no_music">搜索到0首歌曲</string>
+    <string name="server_failed">服务器正在维护...</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/paddint_top_to_screen"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@color/barColor">
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="9dp"
+            android:src="@drawable/goback_pic"
+            android:background="@drawable/back_button_background"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/actionBarSize"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/text_in_bar_size"
+            android:text="下载管理"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="@color/gray"
+        android:textSize="20sp"
+        android:text="正在下载"/>
+    <ListView
+        android:id="@+id/download_music_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/gray"
+        android:dividerHeight="1dp"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true"
+        android:background="@drawable/item_view_background"/>
+</LinearLayout>
