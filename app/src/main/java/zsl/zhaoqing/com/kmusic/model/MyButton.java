@@ -57,7 +57,7 @@ public class MyButton extends ImageView {
                 if (event.getAction() == event.ACTION_DOWN){
                     flag = true;
                     invalidate();
-                }else if (event.getAction() == event.ACTION_UP){
+                }else{
                     flag = false;
                     invalidate();
                 }
